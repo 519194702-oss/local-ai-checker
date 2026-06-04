@@ -15,14 +15,13 @@
 
   <!--
     JavaScript Modules — loaded in dependency order:
-    1. i18n.js          Translation strings
-    2. gpu-db.js        GPU model → VRAM database
-    3. models-db.js     AI model database
-    4. hardware.js      Hardware detection (depends on i18n, gpu-db)
-    5. matcher.js       Compatibility matching (depends on models-db)
-    6. ui.js            UI rendering (depends on i18n, matcher)
-    7. enhancements.js  Recommendation summary, manual calibration, report export
-    8. app.js           Bootstrap (depends on all)
+    1. i18n.js      Translation strings
+    2. gpu-db.js    GPU model → VRAM database
+    3. models-db.js AI model database
+    4. hardware.js  Hardware detection (depends on i18n, gpu-db)
+    5. matcher.js   Compatibility matching (depends on models-db)
+    6. ui.js        UI rendering (depends on i18n, matcher)
+    7. app.js       Bootstrap (depends on all)
   -->
   <script src="js/i18n.js"></script>
   <script src="js/gpu-db.js"></script>
@@ -30,7 +29,6 @@
   <script src="js/hardware.js"></script>
   <script src="js/matcher.js"></script>
   <script src="js/ui.js"></script>
-  <script src="js/enhancements.js"></script>
   <script src="js/app.js"></script>
 </head>
 <body>
